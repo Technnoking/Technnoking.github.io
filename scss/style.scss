@@ -1,0 +1,28 @@
+@import  './libs/variables';
+@import './libs/placeholder';
+
+/*reset*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*basic styles*/
+body {
+    padding-inline: 4em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background-image: url(../Assets/line.svg);
+    
+    @media (max-width: 800px) {
+        padding-inline: 2em;
+    }
+}
+
+
+
+/*header*/
+@import './libs/header';
