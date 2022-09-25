@@ -7,22 +7,64 @@
 *::after {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    // box-sizing: border-box;
 }
 
 /*basic styles*/
 body {
-    padding-inline: 4em;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100vh;
+    font-family:"Montserra-M";
+    height: 108vh;
     background-image: url(../Assets/line.svg);
     
+}
+
+h1 {
+    font-family: "Montserra-S";
+    color: $violetBlack;
+    font-size: clamp(30px, 5vw, 110px);
+    line-height: 65px;
+    @media (max-width: 400px) {
+        line-height: 30px;
+    }
     @media (max-width: 800px) {
-        padding-inline: 2em;
+        line-height: 50px;
     }
 }
 
 
+p {
+    font-size: clamp(15px, 0.8vw, 18px)
+}
 
 /*header*/
 @import './libs/header';
+
+/*main*/
+main {
+    height: 100%;
+    @extend %flex;
+    align-items: flex-start;
+    padding-inline: 4em;
+    .accueil {
+        width: 50%;
+        height: 100%;
+    }
+    .hero {
+        width: 50%;
+        height: 100%;
+  
+    }
+
+    @media (max-width: 900px) {
+        padding-inline: 2em;
+        flex-direction: column;
+        .accueil, .hero {
+            width: 100%
+        }
+    }
+}
+// ----- Accueil
+@import './libs/accueil';
+
+//------ Hero
+@import './libs/hero';

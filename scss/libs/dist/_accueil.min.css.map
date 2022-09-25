@@ -1,0 +1,1 @@
+{"version":3,"sources":["_accueil.scss"],"names":[],"mappings":"AAAA,SACE,WAAY,IAGd,YACE,WAAY,MAGd,WACE,aAAc,IAAI","file":"_accueil.min.css","sourcesContent":[".accueil {\r\n   margin-top: 3em;\r\n   h1 {\r\n      margin-top: 1.8em;\r\n   }\r\n   p {\r\n      margin-block: 2em 3em;\r\n   }\r\n   .btn {\r\n      \r\n   }\r\n}"]}
