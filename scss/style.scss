@@ -1,6 +1,7 @@
 @import  './libs/variables';
 @import './libs/placeholder';
 
+
 /*reset*/
 *,
 *::before,
@@ -35,6 +36,9 @@ h1 {
 p {
     font-size: clamp(15px, 0.8vw, 18px)
 }
+
+// loader
+@import './libs/loader';
 
 /*header*/
 @import './libs/header';

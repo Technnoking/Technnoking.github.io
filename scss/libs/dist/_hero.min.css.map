@@ -1,1 +1,0 @@
-{"version":3,"sources":["_hero.scss"],"names":[],"mappings":"AAAA,qBACE,OAAQ","file":"_hero.min.css","sourcesContent":[".hero {\r\n    \r\n    [alt=portrait] {\r\n        height: 550px;\r\n    }\r\n}"]}
