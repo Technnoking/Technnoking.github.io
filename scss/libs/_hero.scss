@@ -82,18 +82,17 @@
              right: 5%;
             }
         }
-        .msg2 {
+        .msg2{
             position: absolute;
-            background: $violetRed;
-            color: #fff;
-            padding: 1em;
-            border-radius: 15px 15px 0 15px;
-            right: -108px;
+            right: -130px;
             bottom: 27%;
             font-size: .8em;
+            img{
+                width: 200px;
+            }
             @media (max-width: 900px) {
-                top: 95%;
-                right: 10%;
+                top: 90%;
+                right: 1%;
             }
         }
         .card {
@@ -279,7 +278,7 @@
     border-radius: 15px 15px 0 15px;
     width: 125px;
     @media (max-width: 900px) {
-        left: 10%;
+        left: 5%;
         top: 90%;
     }
 }

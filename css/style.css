@@ -357,10 +357,10 @@ main .hero {
 .accueil .btn button:nth-child(1) {
   background: linear-gradient(to right, #EB1974, #F6A740);
   color: #F3F6F5;
-  transition: background 0.3s ease-in-out;
+  animation: rotation 0.4s infinite alternate;
 }
 .accueil .btn button:nth-child(1):hover {
-  background: linear-gradient(to left, #EB1974, #F6A740);
+  background: linear-gradient(150deg, #EB1974, #F6A740);
 }
 .accueil .btn button:nth-child(2) {
   border: 1px solid #EB1974;
@@ -473,18 +473,17 @@ main .hero {
 }
 .hero .hero-picture .msg2 {
   position: absolute;
-  background: #EB1974;
-  color: #fff;
-  padding: 1em;
-  border-radius: 15px 15px 0 15px;
-  right: -108px;
+  right: -130px;
   bottom: 27%;
   font-size: 0.8em;
 }
+.hero .hero-picture .msg2 img {
+  width: 200px;
+}
 @media (max-width: 900px) {
   .hero .hero-picture .msg2 {
-    top: 95%;
-    right: 10%;
+    top: 90%;
+    right: 1%;
   }
 }
 .hero .hero-picture .card {
@@ -665,7 +664,7 @@ main .hero {
 }
 @media (max-width: 900px) {
   .graphique {
-    left: 10%;
+    left: 5%;
     top: 90%;
   }
 }

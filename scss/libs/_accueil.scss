@@ -49,48 +49,11 @@
          &:nth-child(1){
          background: linear-gradient(to right,$violetRed, $yellowOrange);
          color: $white;
-         transition: background .3s ease-in-out;
-         // animation: rotation .8s infinite alternate;
+         animation: rotation .4s infinite alternate;
             &:hover {
-               background: linear-gradient(to left,$violetRed, $yellowOrange);
+               background: linear-gradient(150deg,$violetRed, $yellowOrange);
             }
          }
-
-         // @keyframes rotation {
-         //    0% {
-         //       background: linear-gradient(to right,$violetRed, $yellowOrange);
-         //    }
-         //    10% {
-         //       background: linear-gradient(190deg,$violetRed, $yellowOrange);
-         //    }
-         //    20% {
-         //       background: linear-gradient(200deg,$violetRed, $yellowOrange);
-         //    }
-         //    30% {
-         //       background: linear-gradient(210deg,$violetRed, $yellowOrange);
-         //    }
-         //    40% {
-         //       background: linear-gradient(220deg,$violetRed, $yellowOrange);
-         //    }
-         //    50% {
-         //       background: linear-gradient(230deg,$violetRed, $yellowOrange);
-         //    }
-         //    60% {
-         //       background: linear-gradient(240deg,$violetRed, $yellowOrange);
-         //    }
-         //    70% {
-         //       background: linear-gradient(250deg,$violetRed, $yellowOrange);
-         //    }
-         //    80% {
-         //       background: linear-gradient(260deg,$violetRed, $yellowOrange);
-         //    }
-         //    90% {
-         //       background: linear-gradient(270deg,$violetRed, $yellowOrange);
-         //    }
-         //    100% {
-         //       background: linear-gradient(280deg,$violetRed, $yellowOrange);
-         //    }
-         // }
 
          &:nth-child(2){
             border: 1px solid $violetRed;
