@@ -54,9 +54,27 @@ window.addEventListener('scroll', () => {
     const header = document.querySelector('header');
     if(this.scrollY > "10") {
         header.style.backgroundColor = '#F3F6F5';
-        header.style.transition = '.3s ease-in-out';
+        header.style.boxShadow = '0 2px 4px rgba(225, 225, 225)';
+        header.style.transition = 'all .3s ease-in-out';
     } else {
         header.style.backgroundColor = '#FFFFFF';
+        header.style.boxShadow = '0 0 0';
         header.style.transition = '.3s ease-in-out';
     }
 })
+
+//loader 
+
+const loader = function () {
+    document.querySelector('.loader-container')
+    .classList.add('fondu-out');
+    setTimeout(()=>{
+        document.querySelector('.loader-container').style.display = 'none';
+    }, 1000)
+}
+
+const fonduOut = function () {
+    setInterval(loader, 3000);
+}
+
+window.addEventListener('load', fonduOut);

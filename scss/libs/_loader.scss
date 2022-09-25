@@ -5,8 +5,14 @@
     right: 0;
     bottom: 0;
     background: $violetBlack;
+    z-index: 10000000000;
     @extend %flex;
     justify-content: center;
+    &.fondu-out {
+        // transform: scale(0);
+        opacity: 0;
+        transition: all .4s ease-in-out;
+    }
     .water{
         min-width: 200px;
         aspect-ratio: 1;
