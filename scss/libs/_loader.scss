@@ -27,7 +27,7 @@
         position: absolute;
         min-width:200px;
         aspect-ratio: 1;
-        top:-50px;
+        top:-0px;
         background-color: #fff;
     }
     .water:before{
@@ -38,7 +38,7 @@
     .water:after{
         border-radius: 35%;
         background: rgba(255,255,255,.3);
-        animation:wave 5s linear infinite;
+        animation:wave 6s linear infinite;
     }
 
     
@@ -50,6 +50,7 @@
         }
         100%{
             transform: rotate(360deg);
+            top:-220px;
         }
     }
 }

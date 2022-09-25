@@ -74,7 +74,7 @@ const loader = function () {
 }
 
 const fonduOut = function () {
-    setInterval(loader, 3000);
+    setInterval(loader, 4000);
 }
 
 window.addEventListener('load', fonduOut);

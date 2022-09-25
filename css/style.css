@@ -81,7 +81,7 @@ p {
   position: absolute;
   min-width: 200px;
   aspect-ratio: 1;
-  top: -50px;
+  top: 0px;
   background-color: #fff;
 }
 .loader-container .water:before {
@@ -92,7 +92,7 @@ p {
 .loader-container .water:after {
   border-radius: 35%;
   background: rgba(255, 255, 255, 0.3);
-  animation: wave 5s linear infinite;
+  animation: wave 6s linear infinite;
 }
 @keyframes wave {
   0% {
@@ -100,6 +100,7 @@ p {
   }
   100% {
     transform: rotate(360deg);
+    top: -220px;
   }
 }
 
@@ -309,7 +310,7 @@ main .hero {
 .accueil > .profil1 {
   position: absolute;
   left: 60px;
-  top: 9px;
+  top: 18px;
 }
 @media (max-width: 500px) {
   .accueil > .profil1 {
